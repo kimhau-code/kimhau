@@ -1,0 +1,257 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    .content__show-img img {
+        width: 100%;
+        height: auto;
+    }
+    #header__list {
+        display: block;
+        position: absolute;
+        top: 69px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        padding: 0 84px;
+        display: none;
+    }
+    #header {
+        width: 100%;
+        height: 69px;
+        background-color: var(--primary-color);
+        padding: 0 84px;
+    }
+    #header__list > li {
+        padding: 10px 0;
+    }
+    .header__hover {
+        padding: 10px 0;
+        border-bottom: 1px solid #ebebeb;
+    }
+    .header__cart {
+        display: none;
+    }
+    .header__search {
+        display: none;
+    }
+    .img-mobile-tablet {
+        width: 113px;
+        height: 36px;
+        margin: 0 auto;
+    }
+    .header__img-logo {
+        display: none;
+    }
+    .header__bar {
+        display: none;
+    }
+    .bar-mobile-tablet {
+        color: var(--white-color);
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .user-mobile-tablet {
+        font-size: 24px;
+        color: var(--white-color);
+        line-height: 69px;
+        padding-right: 10px;
+    }
+    .down-rt-mobile-tablet {
+        position: absolute;
+        right: 0;
+        line-height: 25px !important;
+        font-size: 12px;
+        padding: 10px 12px 10px 20px;
+        top: 0;
+        font-weight: 900;
+    }
+    #slider {
+        margin-top: 68px;
+    }
+    .content__member-item {
+        margin-bottom: 47px;
+    }
+    .content__member {
+        padding: 72px 0 20px;
+    }
+    .footer__item-img {
+        width: 263px;
+        height: 84px;
+    }
+    .auto-slider-show {
+        height: auto;
+    }
+    .footer__text {
+        background-color: var(--text-color);
+        margin-top: -62px;
+        padding: 20px 0;
+        border-top: 1px solid #d4d3d3;
+    }
+    .content__resort-heading {
+        font-size: 38px;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    .bar-mobile-tablet {
+        display: none;
+    }
+    .img-mobile-tablet {
+        display: none;
+    }
+    .user-mobile-tablet {
+        display: none;
+    }
+    .down-rt-mobile-tablet {
+        display: none;
+    }
+    .footer__text {
+        display: none;
+    }
+}
+/* tablet  */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .slider-1__img img {
+        height: 630px;
+        max-height: 630px;
+        object-fit: cover;
+    }
+
+    .slider-1__desc {
+        font-size: 82px;
+    }
+
+    .slider-1__paragrah {
+        width: 80%;
+    }
+
+    .review__item {
+        display: block;
+        text-align: center;
+    }
+
+    .review__item-img {
+        height: auto !important;
+        margin-bottom: 20px !important;
+        margin: 0 auto;
+    }
+
+    .content__text-desc {
+        font-size: 58px;
+    }
+
+    .content__review-text-heading {
+        font-size: 58px;
+    }
+
+    .content__review-text-parah,
+    .content__holiday-parah {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .slick-dots {
+        top: 96%;
+    }
+
+    .content__sport-text {
+        padding: 150px 0 47px 0;
+    }
+
+    .content__review {
+        padding: 108px 0 160px 0;
+    }
+
+    .content__resort-img img {
+        width: 275px;
+        height: 275px;
+    }
+
+    .content__show-img img {
+        height: 542px;
+    }
+
+    .footer__name-col4,
+    .footer__name-col3 {
+        margin-top: 25px;
+    }
+    .content__sport-video {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    #header {
+        padding: 0 20px;
+    }
+    .slider-1__heading {
+        font-size: 34px;
+    }
+    .slider-1__desc {
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .slider-1__paragrah {
+        width: 300px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .slick-slide img {
+        height: 450px;
+        object-fit: cover;
+    }
+    .content__text-desc {
+        font-size: 35px;
+    }
+    .content__review-text-heading {
+        font-size: 35px;
+    }
+    .content__holiday-item {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .content__holiday-text {
+        padding: 145px 0 8px 0;
+    }
+    .content__resort-rating {
+        top: 42px;
+        right: 2px;
+    }
+    .content__resort-img img {
+        width: 300px;
+        height: 300px;
+    }
+    .content__show-img img {
+        height: 584px;
+    }
+    .review__item {
+        display: block;
+        text-align: center;
+    }
+    .review__item-img {
+        margin: 9px auto;
+        height: 107px !important;
+    }
+    .text-align-mobile {
+        text-align: center;
+    }
+    .content__resort-item {
+        padding-top: 40px;
+    }
+    .footer__item {
+        margin-top: 72px;
+    }
+    .footer__name-col3 {
+        padding-top: 26px;
+    }
+    .footer__name-col4 {
+        margin-top: 60px;
+    }
+    .footer {
+        padding: 106px 40px 78px 40px;
+    }
+}
